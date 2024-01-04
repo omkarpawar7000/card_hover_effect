@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(32, 30, 66);
+}
+
+.gallery {
+  width: 35%;
+  height: 250px;
+  display: flex;
+  margin: 200px 200px;
+  gap: 5px;
+}
+
+.gallery img {
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  transition: all ease 0.5s;
+}
+
+.gallery img:hover {
+  width: 100%;
+}
